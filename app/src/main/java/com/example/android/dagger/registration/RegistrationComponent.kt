@@ -1,10 +1,12 @@
 package com.example.android.dagger.registration
 
+import com.example.android.dagger.di.ActiveScope
 import com.example.android.dagger.registration.enterdetails.EnterDetailsFragment
 import com.example.android.dagger.registration.termsandconditions.TermsAndConditionsFragment
 import dagger.Subcomponent
 
 
+@ActiveScope
 @Subcomponent
 interface RegistrationComponent {
 
