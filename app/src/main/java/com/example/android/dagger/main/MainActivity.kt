@@ -61,7 +61,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
 //        Для удаления
 //        val userManager = (application as MyApplication).userManager
 
